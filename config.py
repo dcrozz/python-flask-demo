@@ -13,5 +13,5 @@ OPENID_PROVIDERS = [
         { 'name' : 'MyOpenID', 'url': 'https://www.myopenid.com'}
         ]
 
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:DCROzz1200-=_+@localhost/flaskdb'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:DCRozz1200-=_+@localhost/flaskdb'
 #SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
