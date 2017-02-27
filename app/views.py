@@ -33,7 +33,7 @@ def login():
 @app.route('/index')
 @login_required
 def index():
-    user = {'nickname': 'Miguel'}
+    user = g.user
     posts = [
             {
                 'author':{'nickname':'John'},
